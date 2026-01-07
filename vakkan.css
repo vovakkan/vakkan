@@ -1,0 +1,59 @@
+@charset "utf-8";
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+#request {
+	width: 780px;
+	margin: auto;
+	text-align: justify;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+}
+
+.oneColLiqCtr #mainContent {
+	padding: 0px 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+}
+.boys {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	margin: 5px;
+	padding: 5px;
+	float: left;
+	height: 120px;
+	width: 170px;
+	border: 1px solid #000099;
+	text-align: left;
+}
+#secondgen {
+	clear: left;
+	width: 200px;
+	text-align: left;
+	margin-left: 150px;
+}
+
+
+
+.girls {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	margin: 5px;
+	padding: 5px;
+	float: left;
+	height: auto;
+	width: 150px;
+	border: 1px solid #000099;
+	text-align: left;
+}
+#divgirls {
+	clear: left;
+	margin-left: 100px;
+}
+#divboys {
+	clear: left;
+	margin-left: 150px;
+}
